@@ -42,7 +42,7 @@ procedure turbulence_textgrid_tiers
   # Turbulence Tagging tiers.
   .all_turbulence_tiers$ = .cons_type$ + " " + .turb_events$ + " " +
                        ... .turb_notes$
-  .turbulence_point_tiers$ = .turb_events$
+  .turbulence_point_tiers$ = .turb_events$ + " " +.turb_notes$
 endproc
 
 
